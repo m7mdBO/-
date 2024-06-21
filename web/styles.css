@@ -1,3 +1,5 @@
+/* styles */
+
 body {
     display: flex;
     flex-direction: column;
@@ -89,6 +91,12 @@ body {
     gap: 10px;
     align-items: center;
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5; /* Change appearance to indicate it's disabled */
+}
+
 
 .box {
     background-color: #e0e0e0;
