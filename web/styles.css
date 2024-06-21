@@ -6,9 +6,12 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+.links{
+    text-decoration: none;
+
+}
 .back_color {
-    background-color: lightblue;
-    background-image: url("https://cdn.leonardo.ai/users/a5bcedaf-b247-4a8e-971b-efaa8dd8b1e6/generations/aac4f24c-5e6f-4742-bd2d-f029950ecac9/Default_Create_an_image_to_serve_as_a_simple_clean_background_1.jpg");
+    background-image: url("https://cdn.leonardo.ai/users/a5bcedaf-b247-4a8e-971b-efaa8dd8b1e6/generations/64fb68c2-3a80-4027-9ba8-e153d63ec5ee/Default_Create_an_image_to_serve_as_a_simple_clean_background_1.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +20,6 @@ body {
 
 
 .score_bord {
-    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -28,19 +30,22 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 
 }
 
 .center_text {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     height: 100%; 
-    text-align: center;
+    text-align:center;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: black;
+    font-size: 50px;
 }
 
 .score_bord .team1,
@@ -92,20 +97,30 @@ body {
 }
 
 .box.white {
-    background-color: rgb(65, 65, 65);
+
+    background-color: rgb(181, 247, 0);
     width: 400px;
     height: 75px;
 }
 
 .box.black {
-    background-color: gray;
+    background-color:rgb(63, 255, 63);
     width: 180px;
     height: 70px;
-    color: white;
+    color: black;
 }
 
 .grid1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+}
+
+.flag_image{
+    background-image: url("flags_background.jpg");
+    background-size: cover;
+}
+.sflag_image{
+    background-image: url("web_page_background.jpg");
+    background-size: cover;
 }

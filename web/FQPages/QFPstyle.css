@@ -1,0 +1,164 @@
+body {
+    perspective: 1000px;
+}
+
+.card1 {
+    border-radius: 30px;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card1.flipped .card1-inner {
+    transform: rotateY(180deg);
+}
+
+.card1-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card1-front,
+.card1-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card1-front {
+    background-color: white; /* Set background color for the front side */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.card1-back {
+    background-color: white; /* Set background color for the back side */
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer_container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;      
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer_image{
+    width: 275px;
+    height: 175px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMJGwRdgk_O3jzjtJA0LTH3xveOKo9Leesw&s);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+
+.svg-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.question{
+    margin-right: 42vh;
+    font-size: 50px;
+}
+
+.svg-holder, .svg-holder-back {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.holder{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    height: 50%;
+    width: 50%;
+    
+   
+}
+/* croatia flag 200*/
+.crflag{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMJGwRdgk_O3jzjtJA0LTH3xveOKo9Leesw&s);
+    background-size: cover;
+}
+/* Austria flag 200 */
+
+.asflag{
+    background-image: url(https://www.worldometers.info/img/flags/au-flag.gif);
+    background-size: cover;
+}
+
+/* Australia flag 400 */
+
+.auflag{
+    background-image: url(https://www.worldometers.info/img/flags/as-flag.gif);
+    background-size: cover;
+}
+
+/* Albania flag 400 */
+
+.alflag{
+    background-image: url(https://www.worldometers.info/img/flags/al-flag.gif);
+    background-size: cover;
+}
+
+/* Libya flag 600 */
+
+.liflag{
+    background-image: url(https://www.worldometers.info/img/flags/ly-flag.gif);
+    background-size: cover;
+}
+
+/* New Zealand flag 600 */
+
+.neflag{
+    background-image: url(https://www.worldometers.info/img/flags/nz-flag.gif);
+    background-size: cover;
+}
+
+.back_body {
+    background-image: url("web_page_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navBar {
+    background: rgb(27,255,97);
+    background: linear-gradient(90deg, rgba(27,255,97,1) 25%, rgba(0,212,255,1) 75%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.border1 {
+    border-radius: 50%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
