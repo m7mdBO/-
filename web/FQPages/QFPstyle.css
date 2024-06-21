@@ -173,9 +173,17 @@ body {
     justify-content: center;
 }
 
-/* answer image */
+/* cr answer image */
 
 .answer_image{
+    width: 275px;
+    height: 175px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMJGwRdgk_O3jzjtJA0LTH3xveOKo9Leesw&s);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.auanswer_image{
     width: 275px;
     height: 175px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMJGwRdgk_O3jzjtJA0LTH3xveOKo9Leesw&s);
