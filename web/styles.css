@@ -132,3 +132,8 @@ body {
     background-image: url("web_page_background.jpg");
     background-size: cover;
 }
+
+.islam_image{
+    background-image: url("https://t4.ftcdn.net/jpg/02/81/41/97/360_F_281419725_ZOnesn844OP4PgwI48ilMOVIUNsBzC5P.jpg");
+    background-size: cover;
+}

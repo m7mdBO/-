@@ -119,6 +119,16 @@ document.addEventListener('DOMContentLoaded', () => {
     disableLink('flagsLink4');
     disableLink('flagsLink5');
     disableLink('flagsLink6');
+    disableLink('islamLink1');
+    disableLink('islamLink2');
+    disableLink('islamLink3');
+    disableLink('islamLink4');
+    disableLink('islamLink5');
+    disableLink('islamLink6');
+
+
+
+
 
 
 
