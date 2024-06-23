@@ -173,9 +173,9 @@ body {
     justify-content: center;
 }
 
-/* cr answer image */
+/* crcroatia answer image */
 
-.answer_image{
+.croatia_answer_image{
     width: 275px;
     height: 175px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMJGwRdgk_O3jzjtJA0LTH3xveOKo9Leesw&s);
@@ -183,13 +183,60 @@ body {
     margin-bottom: 20px;
 }
 
-.auanswer_image{
+/* Austria answer image */
+
+.Austria_answer_image{
     width: 275px;
     height: 175px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMJGwRdgk_O3jzjtJA0LTH3xveOKo9Leesw&s);
     background-size: cover;
     margin-bottom: 20px;
 }
+
+/* Australia answer image */
+
+.Australia_answer_image{
+    width: 275px;
+    height: 175px;
+    background-image: url(https://www.worldometers.info/img/flags/as-flag.gif);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+/* Albania answer image */
+
+.Albania_answer_image{
+    width: 275px;
+    height: 175px;
+    background-image: url(https://www.worldometers.info/img/flags/al-flag.gif);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+/* Libya answer image */
+
+.libya_answer_image{
+    width: 275px;
+    height: 175px;
+    background-image: url(https://www.worldometers.info/img/flags/ly-flag.gif);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+
+/*  New Zealand  answer image */
+
+.newZealand_answer_image{
+    width: 275px;
+    height: 175px;
+    background-image: url(https://www.worldometers.info/img/flags/nz-flag.gif);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
 
 /* the question */
 

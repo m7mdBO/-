@@ -63,10 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let team2Score = parseInt(localStorage.getItem('team2Score') || '0');
 
         if (team === 'team1') {
-            team1Score += 200;
+            team1Score += 400;
             localStorage.setItem('team1Score', team1Score.toString());
         } else if (team === 'team2') {
-            team2Score += 200;
+            team2Score += 400;
             localStorage.setItem('team2Score', team2Score.toString());
         }
 
@@ -116,8 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
     disableLink('flagsLink1');
     disableLink('flagsLink2');
     disableLink('flagsLink3');
+    disableLink('flagsLink4');
+
 
 
     // Add more disableLink calls for other links as needed
 });
-
