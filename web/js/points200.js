@@ -125,10 +125,17 @@ document.addEventListener('DOMContentLoaded', () => {
     disableLink('islamLink4');
     disableLink('islamLink5');
     disableLink('islamLink6');
+    disableLink('kuwaitLink1');
+    disableLink('kuwaitLink2');
+    disableLink('kuwaitLink3');
+    disableLink('kuwaitLink4');
+    disableLink('kuwaitLink5');
+    disableLink('kuwaitLink6');
 
 
 
 
+    
 
 
 

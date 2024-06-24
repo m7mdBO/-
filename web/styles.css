@@ -137,3 +137,8 @@ body {
     background-image: url("https://t4.ftcdn.net/jpg/02/81/41/97/360_F_281419725_ZOnesn844OP4PgwI48ilMOVIUNsBzC5P.jpg");
     background-size: cover;
 }
+
+.kuwait_image{
+    background-image: url("https://media.istockphoto.com/id/1066837888/photo/vibrant-sunset-over-kuwait-city.jpg?s=612x612&w=0&k=20&c=eOXBZBjUps0BvB6BNnz1_fZnHCnUazYb3RB9uEY8t34=");
+    background-size: cover;
+}
